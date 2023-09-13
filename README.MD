@@ -1,1 +1,1 @@
-Git learning in progress
+Git and github learning in progress
