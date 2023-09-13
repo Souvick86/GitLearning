@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#qrHolder {
+    height: 200px;
+    width: 200px;
+    background-color: #008b5c;
+    border-radius: 10px;
+    border: 1px rgb(186, 186, 186) solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text" i] {
+    width: 183px;
+    background-color: #40414f;
+    border: 1px rgb(186, 186, 186) solid;
+    outline: none;
+    padding: 7px 8px;
+    font-size: 0.8em;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.inputControl {
+    position: absolute;
+    bottom: 20px;
+}
+
+button  {
+    padding: 5px 30.2px;
+    font-size: 0.6em;
+    border-radius: 3px;
+    border: none;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:focus {
+    outline: none;
+    filter: drop-shadow(1px 1px 10px #555659);
+}
